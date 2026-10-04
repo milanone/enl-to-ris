@@ -69,3 +69,7 @@ Converted 76 records to Impedance_bacteria.ris
 - `REFTYPE_MAP` may need extending for libraries using reference types
   other than Journal Article / Book / Book Section (the script tells
   you exactly which codes are unmapped).
+
+## License
+
+[MIT](LICENSE)
