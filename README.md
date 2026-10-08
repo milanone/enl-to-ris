@@ -58,9 +58,19 @@ your own library.
 ## Example run
 
 ```
-$ python enl_to_ris.py examples/Impedance_bacteria.enl Impedance_bacteria.ris
-Converted 76 records to Impedance_bacteria.ris
+$ python enl_to_ris.py "MyLibrary.enl" MyLibrary.ris
+Converted 73 records to MyLibrary.ris
 ```
+
+## Tests
+
+```bash
+py -m unittest discover -s tests -v
+```
+
+The conversion logic is tested without MariaDB. A full conversion of a real library runs only if one is
+present in `example data/` (gitignored: it holds a personal bibliography) and the portable MariaDB is already
+cached; otherwise that test is skipped.
 
 ## Limitations
 

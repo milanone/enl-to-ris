@@ -3,3 +3,6 @@ __pycache__/
 *.enl
 *.ris
 *.Data/
+.claude/
+*.lnk
+example data/
