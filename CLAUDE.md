@@ -8,7 +8,7 @@ Drive mirror, how he works) are in `..\CLAUDE.md`; this file has the project-spe
 
 Command-line converter from legacy EndNote libraries (`.enl`, pre-EndNote-20) to RIS, so the references can be
 imported elsewhere without EndNote. It is a CLI tool, not a Tkinter GUI like the other projects, so it has no
-screenshot and no `.bat` launcher; it makes no plots, so PlotStyleKit does not apply.
+screenshot; it makes no plots, so PlotStyleKit does not apply.
 
 ## Running / tests
 
